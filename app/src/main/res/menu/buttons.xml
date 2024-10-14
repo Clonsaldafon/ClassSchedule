@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_today"
-        android:title="Сегодня"
-        android:icon="@drawable/today" />
+        android:title="@string/today"
+        android:icon="@drawable/ic_today" />
 
     <item
         android:id="@+id/nav_week"
-        android:title="Неделя"
-        android:icon="@drawable/week" />
+        android:title="@string/week"
+        android:icon="@drawable/ic_week" />
 </menu>
