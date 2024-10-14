@@ -3,6 +3,10 @@
     <style name="Base.Theme.ClassSchedule" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="titleTextColor">@color/text_color</item>
+        <item name="itemBackground">@color/schedule_item_background_color</item>
+        <item name="colorContainer">@color/header_background_color</item>
+        <item name="strokeColor">@color/header_border_color</item>
     </style>
 
     <style name="Theme.ClassSchedule" parent="Base.Theme.ClassSchedule" />

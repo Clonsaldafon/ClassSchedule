@@ -11,6 +11,7 @@
         android:text="@string/today"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         android:padding="16dp"
         android:background="@drawable/header_background"
         app:layout_constraintTop_toTopOf="parent"

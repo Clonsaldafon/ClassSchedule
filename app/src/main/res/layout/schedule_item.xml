@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -24,6 +25,7 @@
         android:text="@string/start_time"
         android:textSize="14sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="@id/title" />
 
@@ -32,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="@id/teacher" />
 
@@ -42,6 +45,7 @@
         android:text="@string/end_time"
         android:textSize="14sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/start_time_text"
         app:layout_constraintStart_toStartOf="@id/start_time_text" />
 
@@ -50,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/start_time"
         app:layout_constraintStart_toStartOf="@id/teacher" />
 
@@ -60,6 +65,7 @@
         android:text="@string/classroom"
         android:textSize="14sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/end_time_text"
         app:layout_constraintStart_toStartOf="@id/end_time_text" />
 
@@ -68,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/end_time"
         app:layout_constraintStart_toStartOf="@id/teacher" />
 
@@ -78,6 +85,7 @@
         android:text="@string/teacher"
         android:textSize="14sp"
         android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintTop_toBottomOf="@id/classroom_text"
         app:layout_constraintStart_toStartOf="@id/classroom_text" />
 
@@ -86,6 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
+        android:textColor="@color/text_color"
         android:layout_marginStart="8dp"
         app:layout_constraintTop_toBottomOf="@id/classroom"
         app:layout_constraintStart_toEndOf="@id/teacher_text" />
